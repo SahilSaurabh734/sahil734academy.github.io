@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sahil734Academy</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+</head>
+<body>
+<div class="nav">
+	<div class="logo">SAHIL734Academy</div>
+	<div class="navlist">
+	<ul>
+		<li><a href="#" class="lnk">HOME</a></li>
+		<li><a href="#" class="lnk">COURSES<a></li>
+		<li><a href="#" class="lnk">BLOG</a></li>
+		<li><a href="#" class="lnk">ABOUT US</a></li>
+		<li><a href="#" class="lnk"  onclick= "document.getElementById('contactme').style.display='flex'">CONTACT</a></li>
+		<li style="margin-top: 10px;" ><a href="#"   class="btnn"  onclick= "document.getElementById('login').style.display='flex'" >LOG IN</a></li>
+	</ul>
+
+</div>
+</div>
+<div class="popup" id="login">
+	<div class="pop-content">
+		<h1>LOG-IN</h1><hr><br>
+		<p class="close" onclick="document.getElementById('login').style.display='none'">close</p>
+		<label>Email</label>
+		<input type="email" name="">
+		<label>Password</label>
+		<input type="Password" name="">
+		<a href="" class="buton">LOG IN</a>
+	</div>
+
+
+</div>
+<div class="popup" id="contactme">
+	<div class="pop-content">
+		<h1>Contact</h1><hr><br>
+		<p class="close" onclick="document.getElementById('contactme').style.display='none'">close</p>
+		<label>Name</label>
+		<input type="text" name="">
+		<label>Email</label>
+		<input type="email" name="">
+		<label>Message</label>
+		<textarea  name=""></textarea>
+		<a href="" class="buton">SEND</a>
+	</div>
+
+
+</div>
+
+<div class="container">
+	<center><h1>WELCOME DEVELOPERS</h1>
+	<h2>Life is too short to risk outdated or obsolete training.<br>
+Learn the right way to program that will maximize your future career options.</h2>
+</center>
+	
+</div>
+<div class="content">
+	<center><h2>CHECK OUT COURSES</h2><hr></center>
+	<div class="image"><img src="https://cdn.vox-cdn.com/thumbor/FDD76YJZJFPyNUfT3ZBHcnMA0Ec=/43x0:593x367/1200x800/filters:focal(43x0:593x367)/cdn.vox-cdn.com/uploads/chorus_image/image/48667835/dbgxt2rvpd26udoyzcqn.0.0.jpg">
+		<hr><p><a href="#" class="buton">JAVA</a> </p></div>
+	<div class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png">
+		<hr><p><a href="#" class="buton">PYTHON</a></p></div>
+	<div class="image"><img src="https://cdn.iconscout.com/icon/free/png-256/c-programming-569564.png">
+		<hr><p><a href="#" class="buton">C LANGUAGE</a></p></div>
+	<div class="image"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEX///+aSZNqFXeBMISVPo62krfQsM18I4CZR5KXQpBhAG+TNotcAGt/LoNkAHKcS5S9nL77+Pt6HH1+KYF3EXqSNIpnC3X79vuEN4ft4eyeaaHOtc/n2+j07PPm1eSUOozgzN5yH3vbxNm5iLWqa6XLqMiuc6mfU5jBlr2neamlYJ+0fq/awde/k7vGnsKNPIuOSZB/QIp2MYKKU5OmgKyPXZiiW5yxeaxxAHTEqMWxi7OkdKacZJ6JQYy0lrrHscvXYXfTAAAKYElEQVR4nO2dDXuaPBSGq1IlgCAqWKsIalv73ensVm23/v9/9QasHygJCYSE7s19bVfZWiBPk5Nzck6EszOJRCKRSCQSiUQikUgkEolEIpFIJBKJ5DviTerX9YknuhlF4T2rjq8oiu/Mrv9Fkd5UV9TKBlXRp/+cxmcdVA4B+rMtuk0seQS7/tuhgIHoZjGjf6+f6Avx70eim8aE3tRJ1Bfao/PwD5hjXQEIfZE5+s+iG5iTycxHdeB2WlUfRTcyB/2rZAOMa9Tvh6IbmhH7ycEN0ENznPZENzYLdV8h0hcC9GvRzaVmlGaAR93oWxPRTabCuyEwwCON+lVfdLPJudXJDDAOcKbfJJAbKOQGeKRRr4tuPAGjX35GfZXQHGeBaAEpeDfIEI1Qo35T6kDu2c9igHGA/lRacxyop2ukLChKOddV0ACZ6Avxf5VvXeU95DTAOKrzu1zmaGfzgDiAU6Y0x6Oa1QPiUNSymOMQkaTIjVoOc+xNC9IXadQfhK+rngnXgFkButg0x8QqwgBjQBMXl+YgSlIw0KhfiUlzQAMsdoAeahSR5rjGZglZA3zeaY5JhU0ISgznNEd2A1SjP9lO5ZfmIM4SHjZPBYqvOzpQ4YBzdN1XgEotFXDKOtYBpYeA4nT//qk+GXm2bZ/Bv94wqD/d+zqUSXcpBRSf5qBNUqjAV37Xk4fXsH7j+5Qii05z2JRrJNUHU2yL7GDq081ZxaY5RnQeAjhXj+krILv+i27eAk5hs+qAqgOB/kA69wV0c7PqFGSNAY1A1SHWFzKiW4E5hYSqHs0U41NXzIIZxRStOkW4xhtyGwSZhtEt+Rix1BlzfWdDh1igf5VttusTdyOoddmP0ylxFzrZg2SyfIF60ax1Xhlq20AqUFWCHHcZEEh8aTZrtdob6wDO08kEAiufPx7h08pW5aW2oR2wEbYjIJtJlau8SU7PwowWC9SaXwobKya69gyIFCo3+e/UmyElhga4pXGe/1Yx6iTTHAuBMIxDSXyp7QWKUQiu2Nyrl7hKfqnFEKEQzFgVGk7DJ+twgIpSqAJ28/foKLw40SdEocOyxlCPOaeYAQpT6LNd0Tzs7/dyok6IQsBkGt1jz1TkABWiUPVZB1H9jSm+JOvjr9BnX8y8VaxEAxSjkJUnjDFLNkAxCsmW3F5Qv51On57rAUl03v/olEchmKZfIJjOwk/MAACiT808pfgWe93FCuSrUPXT+sS+Bnos9avCf+Pcy6DdwOrjrDC1C6+TdiuqPnKvxehHN0UfZ4UOvgv7qO3Cqv8r6Uzv8g0/QLkrBL+xZ15jUmiqf5pQOk8xQAEK/QB34hSb/lCdo60Wg06aAfJXqFawAtNyA7HdJMMfXaSLF6cQ3OYRCCXuko+9O7IByluhjsnf10kydE6w+eFWl3CAclaoWuiTCPPkShi1P160KfTxVIhzhhZZIQJGtf2fxAbIXaGPLldek5YhlI92kgF22pCN8EZ4KEihjnT3Nln5OlwjJU4w7SjkuQy/1whv0usKUYjxFYRdiFwjHShsh5Zqi1EIHpCnkGxsP80Sbmk2twqb8DBU2HtrNgXkvBVkKW1CUgdA6avVLi46G4Xw6KITKWzDoyZ3heiJ5iGtHmd91cmSaLSSL+p1uStE+/vUDWwA1X3lUuigcmz9FG+PNMCSKVQVVK3iEWuGKjJLWDqFyJgN4ysstIfY0ln3h8PI08KvkOiS8Otk5/a5KUTu+nhCTjQWzgB3ErvdtyiR8/HWhYeRx4dH+7hGvELU3g20Bzzm2OOLiWlo+9BSm8RLwHIorCDtMFGhVatWq+Nv1YcVFTWXPp+cYFkvVbcaMk6X12k03iKFH+0GPNzYITzirhDtLU5OsMB4oy8kbah2Llut8ygtPmhBzsO72Oet1nonkV9Mg/L4RxtwoAHu9aUP1fL4w4qOqsnEN1FZF9VjsEO1RArRydJfu7g0NMAkMEO1RArRH7u+3U6mMQMk1Fgihehs6UjfGiBCHs4cOx/n5+toplmtz+FhNNPAo2WHu0IVXf2NMm0JBkhkjtBbdPfeorv1FvtO56cQoE/xoQGOUwRihmpJPD56MoVrYLQBxmk2klQeKoy8riCFmCc8DAwifdWqdp6UEO583EH+hN/ovMOj944Yhbic95ysC905/G00TosWnZDm/rAmRmEFbYhnnkbWhdFSN21rwhE8a0+YXRVE49T4qgN7HzS1C559+IQ5bZ0u0fi7++ngD3n9iWeVW8Gdt0yTaKwPf3yVustEhEJM9ekstRcPejCityQ0R54KMWFNyEBDz6iudroXg7CUyHc/DX5XW3+BmlKNeWJp7rFJYI5890Sh608bVm5CP8L/+0Sd0EqsmIpTiIvcvli5hnko0jWNBVIfxHtP2xfFeW8ifldURLBcaJpmhsCvi2XavvfRD/ysynt/KdE+/V7wuV4ul+vPgGjL9Lo8+0utl+qC8e1CFlVsdYqfQkvtuFUNkXXIwV8Nm5HjqLC2mfhZPwagv4kUkBk5Xgp3WbRwBcSUxXbqRVgjH4WHSQptnX4RCpb7KCF5qPJQGBngQYDC8lkO8WVX0lDloNCqHQUpGjtTHB7HeadDtWiFSWlsd8zs84fuaZB3PFQLVpicxjYZeUU7MUU35qjwyAAPJDKZUO2FmXj1uEbmCg83j6DT2CwkIgVWY+bIXOG2HIiqI+0k5rXFHkZg9cAc26w/j+85WwPE3R9KrOZ7rko/YZKJsR2qXeYP/ozKLNg60oakxAQ5E0zKI66xy/wJtVOQXkfaYGSPblIzcxs6YcqfobYNI5+kjhShJadfUkEndI4ZNwt4Ps3ZH+wMEMM1siym1gZZmSO6wwVzfbATSStJIdqcdiKYjEk7MMQo5AHDLRqJrvGT5llYwx8UHXiaR2YF4TzwhWn8JP1FBz+p9FWNZTECz85WdA0xjfln+pzeW83pLpvNygkZzmmMJXSO5jLAibQHlxqBCzxEmxf7VOGVST6lRpia+bpKbtNw9apptJczcYlkNqxpG1UNU8Dz5edk2LM39IaT1XKuUcuDV2KbK0HQf6WzmwgXyjQM03Rd0zQNA4rLcA3jlddzdgPi4IMl2iLgpC+kRT3A8mKarJdLKdh3Bk+NprHk/7aLPqWbzgEMkMS8z4sulMyONhb3TjYe5miaBYYw6XiXBQ9V17gT/Q6PYZHmKMwA4zxWizJHrVqWd5T+LcQcTa2gVWAWvCyBHB7XeC/XO61Gc6rlcbq+gtdIWfg02ZmjVi3Ly6xi2GtGgZypsa5JMIOJd3SNy3IZYJz86ypjUYY3keH4pE1zxNA4JClyk8McTWNdojcCYsjoHV3jtcwGGCfIsK7im6TID23WkXuSIj89mjSHkCRFfojXVSVZI2WBbF2lNb/Xi+PjpK+rTO3bGWCc3jt2qJYgSZEfTL2qlGukLHy6yUNVG5clSZEbe5ngOUqVpMjPSSDnGu/f3wDjBIuDfjTp9jF8FyaXxtdnZozLQHRjCsKe/F3frc8n/9r4lEgkEolEIpFIJBKJRCKRSCQSiUQikfxP+A++9v5eUzxvLgAAAABJRU5ErkJggg==">
+		<hr><p><a href="#" class="buton">C#</a></p></div>
+	<div class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png">
+		<hr><p><a href="#" class="buton">C++</a></p></div>
+	
+	<div class="image"><img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png">
+		<hr><p><a href="#" class="buton">HTML</a></p></div>
+	<div class="image"><img src="https://i0.wp.com/appliedparticletechnology.com/wp-content/uploads/2016/03/css-logo.png?resize=230%2C350&ssl=1">
+		<hr><p><a href="#" class="buton">CSS</a></p></div>
+	<div class="image"><img src="https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png">
+		<hr><p><a href="#" class="buton">JAVASCRIPT</a></p></div>
+</div>
+<div class="footer">
+	<div class="logo2">SAHIL734Academy</div>
+	<div class="list2"><ul>
+		<li><a href="#" class="lnk">COURSES</a></li>
+		<li><a href="#" class="lnk">ABOUT US</a></li>
+		<li><a href="#" class="lnk" onclick= "document.getElementById('contactme').style.display='flex'">CONTACT</a></li>
+	</ul></div>
+	<center><form class="subscribe">
+		<hr><br>
+		<label>SUBSCRIBE:</label>
+		<input type="email" name="" placeholder="   abc@xyz.com" class="txt">
+		<input type="submit" name="" class="btnnk">
+	</form></center>
+</div>
+<script>
+	
+</script>
+
+</body>
+</html>
